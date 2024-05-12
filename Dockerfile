@@ -1,6 +1,6 @@
 FROM openjdk:17
 
-COPY target/SpringBoot_App /usr/app/
+COPY target/SpringBoot_App.jar  /usr/app/
 
 WORKDIR /usr/app/
 
